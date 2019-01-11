@@ -4,8 +4,7 @@ extends Node2D
 #
 
 func _ready():
-	$Tower.setTarget($Raider)
-	#$Enemy.setTarget($Tower)
+	$Tower.setTarget($Shaggy)
 	pass
 	
 	

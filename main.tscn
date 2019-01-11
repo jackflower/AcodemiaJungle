@@ -12,11 +12,11 @@
 [ext_resource path="res://decorator/plants_02/PlantsTwo.tscn" type="PackedScene" id=10]
 [ext_resource path="res://decorator/plants_03/PlantsThree.tscn" type="PackedScene" id=11]
 [ext_resource path="res://decorator/ship_wreck/ShipWreck.tscn" type="PackedScene" id=12]
-[ext_resource path="res://raider/Raider.tscn" type="PackedScene" id=13]
-[ext_resource path="res://tower/Tower.tscn" type="PackedScene" id=14]
-[ext_resource path="res://decorator/tree_01/TreeOne.tscn" type="PackedScene" id=15]
-[ext_resource path="res://decorator/tree_02/TreeTwo.tscn" type="PackedScene" id=16]
-[ext_resource path="res://decorator/tree_03/TreeThree.tscn" type="PackedScene" id=17]
+[ext_resource path="res://tower/Tower.tscn" type="PackedScene" id=13]
+[ext_resource path="res://decorator/tree_01/TreeOne.tscn" type="PackedScene" id=14]
+[ext_resource path="res://decorator/tree_02/TreeTwo.tscn" type="PackedScene" id=15]
+[ext_resource path="res://decorator/tree_03/TreeThree.tscn" type="PackedScene" id=16]
+[ext_resource path="res://shaggy/Shaggy.tscn" type="PackedScene" id=17]
 
 [node name="main" type="Node2D" index="0"]
 
@@ -110,36 +110,34 @@ position = Vector2( 95.3682, 502.912 )
 rotation = 0.121126
 scale = Vector2( 2.35938, 2.35938 )
 
-[node name="Raider" parent="." index="19" instance=ExtResource( 13 )]
-
-position = Vector2( 633, 315 )
-scale = Vector2( 0.5, 0.5 )
-_sections_unfolded = [ "Transform" ]
-
-[node name="Tower" parent="." index="20" instance=ExtResource( 14 )]
+[node name="Tower" parent="." index="19" instance=ExtResource( 13 )]
 
 position = Vector2( 443, 191 )
 
-[node name="TreeOne" parent="." index="21" instance=ExtResource( 15 )]
+[node name="TreeOne" parent="." index="20" instance=ExtResource( 14 )]
 
 position = Vector2( 999, 294 )
 
-[node name="TreeTwo" parent="." index="22" instance=ExtResource( 16 )]
+[node name="TreeTwo" parent="." index="21" instance=ExtResource( 15 )]
 
 position = Vector2( 969, 177 )
 
-[node name="TreeThree_1" parent="." index="23" instance=ExtResource( 17 )]
+[node name="TreeThree_1" parent="." index="22" instance=ExtResource( 16 )]
 
 position = Vector2( 883, 30 )
 
-[node name="TreeThree_2" parent="." index="24" instance=ExtResource( 17 )]
+[node name="TreeThree_2" parent="." index="23" instance=ExtResource( 16 )]
 
 position = Vector2( 188, 556 )
 scale = Vector2( 2.07813, 2.01563 )
 
-[node name="TreeThree_3" parent="." index="25" instance=ExtResource( 17 )]
+[node name="TreeThree_3" parent="." index="24" instance=ExtResource( 16 )]
 
 position = Vector2( 242, 576 )
 scale = Vector2( 1.02344, 0.945313 )
+
+[node name="Shaggy" parent="." index="25" instance=ExtResource( 17 )]
+
+position = Vector2( 574.834, 429.422 )
 
 
