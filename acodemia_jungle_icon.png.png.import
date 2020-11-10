@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/acodemia_jungle_icon.png.png-796566e269a85e69f6ee3dc87b827455.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://acodemia_jungle_icon.png.png"
-source_md5="b8b9723c1eea3492fc5b7937fd73207d"
-
 dest_files=[ "res://.import/acodemia_jungle_icon.png.png-796566e269a85e69f6ee3dc87b827455.stex" ]
-dest_md5="6fed0642b51c52f8641059356c44cae5"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/grass_01.png-f45b57221dc7014468574ff0509fb3a6.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://decorator/grass/grass_01.png"
-source_md5="446b96da10c8a6220bdcbdf9fb2bba05"
-
 dest_files=[ "res://.import/grass_01.png-f45b57221dc7014468574ff0509fb3a6.stex" ]
-dest_md5="152571f0aeeac74bdbe1c6507a0c95fb"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true
