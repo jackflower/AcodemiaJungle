@@ -1,6 +1,6 @@
 # Projekt Acodemia - Acodemia Jungle
 
-Godot Engine 3.0.6 released July 29, 2018
+Godot Engine v3.3.4.stable.official, update 2022
 
 ![Acodemia icon](https://github.com/jackflower/AcodemiaJungle/blob/master/acodemia_jungle_icon.png.png)
 
